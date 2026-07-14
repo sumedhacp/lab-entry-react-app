@@ -49,7 +49,7 @@ const ViewTable = () => {
                                         (value, index) => {
                                             return (
                                                 <tr>
-                                                    <th scope="row">{value.name}</th>
+                                                    <td>{value.name}</td>
                                                     <td>{value.dept}</td>
                                                     <td>{value.sem}</td>
                                                     <td>{value.course}</td>
