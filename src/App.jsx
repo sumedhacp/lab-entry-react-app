@@ -6,6 +6,7 @@ import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import AddLog from './components/AddLog'
 import ViewLog from './components/ViewLog'
+import ViewTable from './components/ViewTable'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,7 +18,7 @@ function App() {
         <Routes>
 
           <Route path='/' element={<AddLog />} />
-          <Route path='/view' element={<ViewLog />} />
+          <Route path='/view' element={<ViewTable />} />
 
         </Routes>
 
